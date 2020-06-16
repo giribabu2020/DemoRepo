@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Different TestNG features" >
+    
+ 
+  
+    <classes>
+      <class name="com.test.GooglefeatureTest"/>
+      <class name="com.test.InvocationcountFeature"/>
+      <class name="com.test.TestNGBasics"/>
+      <class name="com.test.TestNGfeatures"/>
+    </classes>
+  </test>
+</suite>
